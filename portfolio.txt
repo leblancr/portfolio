@@ -1,0 +1,7 @@
+Portfolio Overview Table
+Backend	Frontend	Database	Project / Purpose
+Django	HTML/CSS	PostgreSQL	Voting / Polls CRUD app
+Flask	Vue.js	MongoDB	Task Manager REST API
+Phoenix	LiveView	PostgreSQL	Real-time Crypto Dashboard
+FastAPI	Svelte	PostgreSQL	Housing & Income Analytics API
+Rust
