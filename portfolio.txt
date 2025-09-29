@@ -1,7 +1,54 @@
 Portfolio Overview Table
 Backend	Frontend	Database	Project / Purpose
 Django	HTML/CSS	PostgreSQL	Voting / Polls CRUD app
+FastAPI	Svelte	PostgreSQL	Housing & Income Analytics API
+Blockchain / Web3 → standout skill for niche, high-paying jobs
 Flask	Vue.js	MongoDB	Task Manager REST API
 Phoenix	LiveView	PostgreSQL	Real-time Crypto Dashboard
-FastAPI	Svelte	PostgreSQL	Housing & Income Analytics API
 Rust
+
+/srv/
+├── django-polls/       # Django app (PostgreSQL)
+/srv/django-polls/
+/srv/flask-tasks/
+/srv/fastapi-analytics/
+/srv/phoenix-crypto/
+/srv/rust-whatever/
+
+
+
+Primary (now / short term)
+
+    Python + Django
+
+🔹 Secondary (next step / medium term)
+
+    Elixir + Phoenix (LiveView)
+
+        Fantastic for real-time apps (chat, dashboards, collaborative tools).
+
+        Growing community, but still niche → less competition, but fewer job openings.
+
+        Learning curve is steeper than Django, but you’ll stand out.
+
+        Great to have as a “second stack” in your portfolio, showing versatility.
+
+🔹 Optional (back burner / long term)
+
+    Ruby on Rails
+
+        Still around, mature, good demand (esp. at startups).
+
+        Jobs exist, but it’s not growing like JS or Python ecosystems.
+
+        If you like the Rails philosophy, it can be worth knowing — but Django + Phoenix already cover that style of development.
+
+✅ So the plan:
+
+    Finish + deploy Django project (polls + task manager).
+
+    Get that portfolio piece live.
+
+    Then, once you’ve got something public, branch into Phoenix for your next big project.
+
+That way you’re not throwing away your Django work, but you also won’t get stuck in Python forever.
