@@ -1,11 +1,20 @@
 Portfolio Overview Table
 Backend	Frontend	Database	Project / Purpose
 Django	HTML/CSS	PostgreSQL	Voting / Polls CRUD app
-FastAPI	Svelte	PostgreSQL	Housing & Income Analytics API
-Blockchain / Web3 → standout skill for niche, high-paying jobs
+FastAPI	Svelte	PostgreSQL	crypto-dashboard
+Rust Blockchain / Web3 → standout skill for niche, high-paying jobs
 Flask	Vue.js	MongoDB	Task Manager REST API
 Phoenix	LiveView	PostgreSQL	Real-time Crypto Dashboard
-Rust
+
+| Backend                | Frontend | Database   | Project / Purpose                          |
+| ---------------------- | -------- | ---------- | ------------------------------------------ |
+| Rust Blockchain / Web3 | —        | —          | Standout skill for niche, high-paying jobs |
+| Phoenix                | LiveView | PostgreSQL | Real-time Crypto Dashboard                 |
+| FastAPI                | Svelte   | PostgreSQL | Crypto Dashboard (portfolio project)       |
+| Django                 | HTML/CSS | PostgreSQL | Voting / Polls CRUD app                    |
+| Flask                  | Vue.js   | MongoDB    | Task Manager REST API                      |
+
+
 
 /srv/
 ├── django-polls/       # Django app (PostgreSQL)
