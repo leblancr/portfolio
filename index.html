@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rich LeBlanc | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Hi, I'm Rich LeBlanc</h1>
+  <p>
+    I'm a software engineer passionate about building fast, modern web applications —
+    from traditional Django backends to async FastAPI services with Svelte front-ends.
+  </p>
+</header>
+
+<main>
+  <section>
+    <h2>My Projects</h2>
+    <div class="project-grid">
+
+      <!-- Django Portfolio -->
+      <div class="project-card">
+        <img src="images/django-tutorial-render.png" alt="Django Portfolio Screenshot">
+        <h3>Django Portfolio / Polls App</h3>
+        <p>Django | HTML/CSS | PostgreSQL</p>
+        <p>
+          A fully deployed Django application hosted on FreeBSD (Gunicorn + Nginx).
+          Based on the official Django tutorial, extended with enhanced templates, static assets,
+          and a customized voting interface. Demonstrates model relationships, CRUD views,
+          and production deployment setup.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/leblancr/django_apps" target="_blank">View on GitHub</a>
+          <a href="https://skyebeau.com/polls/" target="_blank">Live Demo</a>
+        </div>
+      </div>
+
+      <!-- Crypto Dashboard -->
+      <div class="project-card">
+        <img src="images/crypto-dashboard.png" alt="Crypto Dashboard Screenshot">
+        <h3>Crypto Dashboard (FastAPI + Svelte)</h3>
+        <p>FastAPI | SvelteKit | PostgreSQL | CoinGecko API</p>
+        <p>
+          A full-stack cryptocurrency tracking platform with JWT authentication, user watchlists,
+          and real-time price data. FastAPI provides an async REST API backend with PostgreSQL,
+          and the Svelte front-end visualizes live price charts using Chart.js.
+          Deployed on FreeBSD with Nginx reverse proxy and Gunicorn.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/leblancr/crypto-dashboard" target="_blank">View on GitHub</a>
+          <a href="https://crypto.skyebeau.com" target="_blank">Live Demo</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Rich LeBlanc | <a href="mailto:rich.leblanc1@proton.me">Contact me</a></p>
+</footer>
+</body>
+</html>
